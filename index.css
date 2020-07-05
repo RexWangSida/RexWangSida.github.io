@@ -3,5 +3,9 @@
 }
 #nav-title{
   margin-right: 200px;
-  font-family: Vollkorn; 
+}
+p{
+  font-family: Lato;
+  font-style: normal;
+  font-variant: normal;
 }
