@@ -73,7 +73,7 @@
   border-bottom: 2px solid rgb(81,81,81);
 }
 p{
-  font-family: 'Lato', sans-serif;
+  font-family: Lato,Helvetica,sans-serif;
   font-style: normal;
   font-variant: normal;
   color: rgb(0, 0, 0);
@@ -109,13 +109,13 @@ p{
     text-decoration: none;
 }
 h1{
-  font-family: 'Lato', sans-serif;
+  font-family: Lato,Helvetica,sans-serif;
   font-style: normal;
   font-variant: normal;
   color: rgb(0, 0, 0);
 }
 h3{
-  font-family: 'Lato', sans-serif;
+  font-family: Lato,Helvetica,sans-serif;
   font-style: normal;
   font-variant: normal;
   color: rgb(0, 0, 0);
