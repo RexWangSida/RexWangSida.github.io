@@ -1,6 +1,7 @@
 #nav{
   margin-top: 40px;
 }
+
 #nav-title{
   margin-right: 200px;
 }
@@ -108,19 +109,8 @@ p{
     color: rgb(10,1,1);
     text-decoration: none;
 }
-h1{
-  font-family: Lato,Helvetica,sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  color: rgb(0, 0, 0);
-}
-h2{
-  font-family: Lato,Helvetica,sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  color: rgb(0, 0, 0);
-}
-h3{
+
+h1,h2,h3,h4,h5,h6{
   font-family: Lato,Helvetica,sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -146,16 +136,26 @@ h3{
 }
 
 
-
-
-/*About*/
-#outerFrame{
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:rgb(211,211,211);
+  height: 1px;
 }
-#innerFrame{
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+a { color: inherit; }
+a:hover { color: rgb(81,81,81); }
+/*About*/
+#frame,#frame1{
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right:300px;
+  width:auto;
+}
+/*certificates*/
+#cert1{
+  width: 200px;
+  height: 150px;
+  border: 2px solid #555;
 }
