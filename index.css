@@ -5,7 +5,35 @@
   margin-right: 200px;
 }
 p{
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-variant: normal;
+  color: rgb(0, 0, 0);
+}
+
+#portrait{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26%;
+  height: 26%;
+}
+
+#mid{
+  margin-top: 50px;
+}
+#bottom{
+  margin-top: 50px;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(0, 0, 0);
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(0, 0, 0);
 }
