@@ -154,7 +154,7 @@ a:hover { color: rgb(81,81,81); }
   min-width: 1080px;
 }
 /*certificates*/
-#cert1{
+#cert1, #cert2{
   width: 200px;
   height: 150px;
   border: 2px solid #555;
