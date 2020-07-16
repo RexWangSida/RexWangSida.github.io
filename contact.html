@@ -8,6 +8,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact - Sida Wang</title>
+    <!-- map config-->
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkuMArpVTbwuIYy6Z-v_4WPrc4PiaFkfoeqhjkyAzbqrvSZ5aepTXSiYMS_D306G' async defer></script>
+    
+    <script type='text/javascript'>
+    function GetMap()
+    {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: 'Your Bing Maps Key',
+            center: new Microsoft.Maps.Location(34.506140, -85.864360),
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+             zoom: 10
+        });
+
+        //Add your post map load code here.
+    }
+    </script>
   </head>
   <body onload="getMap();">
     <ul class="nav justify-content-center" id="nav" style="margin-left: auto; margin-right:auto;">
@@ -66,22 +82,5 @@
     <br />
     <br />
   </section>
-      
-  <!-- map config-->
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkuMArpVTbwuIYy6Z-v_4WPrc4PiaFkfoeqhjkyAzbqrvSZ5aepTXSiYMS_D306G' async defer></script>
-    
-    <script type='text/javascript'>
-    function GetMap()
-    {
-        var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key',
-            center: new Microsoft.Maps.Location(34.506140, -85.864360),
-            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-             zoom: 10
-        });
-
-        //Add your post map load code here.
-    }
-    </script>
   </body>
 </html>
