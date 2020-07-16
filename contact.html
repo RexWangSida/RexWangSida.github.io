@@ -10,15 +10,16 @@
     <title>Contact - Sida Wang</title>
     <!-- map config-->
     <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkuMArpVTbwuIYy6Z-v_4WPrc4PiaFkfoeqhjkyAzbqrvSZ5aepTXSiYMS_D306G' async defer></script>
-    
+
     <script type='text/javascript'>
     function GetMap()
     {
         var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key',
-            center: new Microsoft.Maps.Location(34.506140, -85.864360),
-            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-             zoom: 10
+            credentials: 'AkuMArpVTbwuIYy6Z-v_4WPrc4PiaFkfoeqhjkyAzbqrvSZ5aepTXSiYMS_D306G',
+            center: new Microsoft.Maps.Location(43.257980, -79.917010),
+            supportedMapTypes: [Microsoft.Maps.MapTypeId.road, Microsoft.Maps.MapTypeId.aerial, Microsoft.Maps.MapTypeId.grayscale],
+            mapTypeId: Microsoft.Maps.MapTypeId.grayscale,
+            zoom: 10
         });
 
         //Add your post map load code here.
@@ -57,19 +58,22 @@
         </div>
       </section>
       <section>
-        <div class="row">
-          <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+        <div class="row" style="margin-bottom:30px;">
+
         </div>
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;float:right;">
+        <div class="row justify-content-md-center">
+          <div class="col-md-5">
+            <div id="myMap" style="width:400px;height:300px;"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><a href="wangs132@mcmaster.ca"><b>Email:</b> wangs132@mcmaster.ca</a></li>
                 <li class="list-group-item"><b>Tel:</b> (+1)647-936-6700</li>
               </ul>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="wangs132" ><a class="LI-simple-link" href='https://ca.linkedin.com/in/wangs132?trk=profile-badge'>Sida Wang</a></div>
           </div>
         </div>
