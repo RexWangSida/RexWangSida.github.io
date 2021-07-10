@@ -13,6 +13,75 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <title>Blog - Sida Wang</title>
+    <style>
+          ul.timeline {
+              list-style-type: none;
+              position: relative;
+              padding-left: 1.5rem;
+          }
+
+           /* Timeline vertical line */
+          ul.timeline:before {
+              content: ' ';
+              background: #fff;
+              display: inline-block;
+              position: absolute;
+              left: 16px;
+              width: 4px;
+              height: 100%;
+              z-index: 400;
+              border-radius: 1rem;
+          }
+
+          li.timeline-item {
+              margin: 20px 0;
+          }
+
+          /* Timeline item arrow */
+          .timeline-arrow {
+              border-top: 0.5rem solid transparent;
+              border-right: 0.5rem solid #fff;
+              border-bottom: 0.5rem solid transparent;
+              display: block;
+              position: absolute;
+              left: 2rem;
+          }
+
+          /* Timeline item circle marker */
+          li.timeline-item::before {
+              content: ' ';
+              background: #ddd;
+              display: inline-block;
+              position: absolute;
+              border-radius: 50%;
+              border: 3px solid #fff;
+              left: 11px;
+              width: 14px;
+              height: 14px;
+              z-index: 400;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          }
+
+
+          /*
+          *
+          * ==========================================
+          * FOR DEMO PURPOSES
+          * ==========================================
+          *
+          */
+          body {
+              background: #E8CBC0;
+              background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+              background: linear-gradient(to right, #E8CBC0, #636FA4);
+              min-height: 100vh;
+          }
+
+          .text-gray {
+              color: #999;
+          }
+
+    </style>
   </head>
   <body>
     <ul class="nav justify-content-center" id="nav" style="margin-left: auto; margin-right:auto;">
@@ -46,9 +115,53 @@
             <h1 style="margin-bottom:30px;">Blog</h1>
         </div>
       </section>
+      
+      
       <section>
         <div>
             <h4 style="margin-bottom:30px;">Here are some of my posts:</h4>
+        </div>
+      </section>
+      
+
+      <section>
+            <div class="row">
+                            <div class="col-lg-7 mx-auto">
+
+                                <!-- Timeline -->
+                                <ul class="timeline">
+                                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                        <div class="timeline-arrow"></div>
+                                        <h2 class="h5 mb-0">Title of section 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
+                                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                    </li>
+                                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                        <div class="timeline-arrow"></div>
+                                        <h2 class="h5 mb-0">Title of section 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
+                                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
+                                        <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
+                                    </li>
+                                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                        <div class="timeline-arrow"></div>
+                                        <h2 class="h5 mb-0">Title of section 3</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
+                                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                    </li>
+                                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                        <div class="timeline-arrow"></div>
+                                        <h2 class="h5 mb-0">Title of section 4</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
+                                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                        <p class="text-small mt-2 font-weight-light">Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit natus! Eum corporis illum nihil officiis tempore. Excepturi illo natus libero sit doloremque, laborum molestias rerum pariatur quam ipsam necessitatibus incidunt, explicabo.</p>
+                                    </li>
+                                </ul><!-- End -->
+
+                            </div>
+                </div>
+      </section>
+      
+      
+      <section>
+        <div>
+            <h4 style="margin-bottom:30px;">Here are my Linkedin posts:</h4>
         </div>
       </section>
       <section>
